@@ -134,3 +134,21 @@ img{
 #radio4:checked ~ .navigation >  .radio >  .button-4 > span{
     background-color: yellow;
 }
+
+
+
+@media (max-width: 1420px) {
+    .navigation{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 1.5em;
+    }
+    .label{
+        width:60%;
+        font-size: 1rem;
+    }
+    .radio{
+        gap: 1rem;
+        justify-content: center;
+    }
+}
